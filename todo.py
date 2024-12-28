@@ -10,12 +10,12 @@ counter = 1
 
 class Task(BaseModel):
     title: str
-    description: str  # Corrected spelling
+    description: str  
     completed: bool = False
 
 class TaskUpdate(BaseModel):
     title: str = None
-    description: str = None  # Corrected spelling
+    description: str = None  
     completed: bool = None
 
 
